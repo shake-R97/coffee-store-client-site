@@ -34,7 +34,7 @@ const AddCoffee = () => {
             .then(data => {
                 if (data.insertedId) {
                     Swal.fire({
-                        position: "middle",
+                        position: "center",
                         icon: "success",
                         title: "Coffee Added Successfully",
                         showConfirmButton: false,
